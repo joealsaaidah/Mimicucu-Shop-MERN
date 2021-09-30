@@ -9,7 +9,6 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Link href='/cart'>
-                {" "}
                 <i className='fas fa-shopping-cart'> </i> Cart
               </Nav.Link>
               <Nav.Link href='/login'>
