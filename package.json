@@ -1,0 +1,29 @@
+{
+  "name": "mimicucu-shop",
+  "version": "1.0.0",
+  "description": "Shopping app (MERN)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joealsaaidah/Mimicucu-Shop-MERN-.git"
+  },
+  "keywords": [
+    "mimicucu",
+    "shopping",
+    "best",
+    "products",
+    "quality"
+  ],
+  "author": "Yousef Alsaaidah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joealsaaidah/Mimicucu-Shop-MERN-/issues"
+  },
+  "homepage": "https://github.com/joealsaaidah/Mimicucu-Shop-MERN-#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
