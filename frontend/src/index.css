@@ -12,6 +12,11 @@ code {
     monospace;
 }
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 main {
   min-height: 80vh;
@@ -50,10 +55,23 @@ h3 {
 .carousel img {
   height: 300px;
   padding: 30px;
-  margin: 40px auto;
+  margin: 60px auto;
   border-radius: 50%;
 }
 
 .carousel a {
-  margin: 0 auto;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h2 {
+    font-size: 95%;
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel-caption h2 {
+    font-size: 85%;
+  }
 }
